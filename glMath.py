@@ -60,7 +60,7 @@ def Normalize(V):
     return VN
 
 
-def ot(A, B):
+def Dot(A, B):
     return sum([x*y for x, y in zip(A, B)])
 
 
